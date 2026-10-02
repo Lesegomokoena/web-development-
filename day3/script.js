@@ -46,7 +46,7 @@ function getSummary() {
   const counts = countByCategory();
   const word = notes.length === 1 ? "note" : "notes";
 
-  return `${notes.length} ${word}: ${counts.personal || 0} personal, ${counts.work || 0} work, ${counts.study || 0}.`;
+  return `${notes.length} ${word}: ${counts.personal || 0} personal, ${counts.work || 0} work, ${counts.study || 0} study.`;
 }
 
 function isDuplicate(text) {
